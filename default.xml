@@ -24,7 +24,7 @@
   <project name="meta-rust/meta-rust" path="layers/meta-rust" remote="github" revision="master"/>
   <!--<project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"  revision="master"/>-->
   <project name="akuster//meta-odroid" path="layers/meta-odroid" remote="github"  revision="master"/>
-  <project name="openembedded/bitbake" path="bitbake" remote="github"/>
+  <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.50"/>
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro" revision="master"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="master"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="master"/>
