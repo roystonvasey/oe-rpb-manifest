@@ -7,11 +7,11 @@
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   
-  <default revision="gatesgarth" sync-j="4"/>
+  <default revision="hardknott" sync-j="4"/>
   
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github" revision="master"/>
   <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github" revision="master"/>
-  <project name="roystonvasey/oe-rpb-manifest" path="conf" remote="github" revision="qcom/gatesgarth">
+  <project name="roystonvasey/oe-rpb-manifest" path="conf" remote="github" revision="odroid/hardknott/">
     <linkfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="master"/>
@@ -22,7 +22,8 @@
   <project name="meta-python2" path="layers/meta-python2" remote="oe"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
   <project name="meta-rust/meta-rust" path="layers/meta-rust" remote="github" revision="master"/>
-  <project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"  revision="master"/>
+  <!--<project name="ndechesne/meta-qcom" path="layers/meta-qcom" remote="github"  revision="master"/>-->
+  <project name="akuster//meta-odroid" path="layers/meta-odroid" remote="github"  revision="master"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.48"/>
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro" revision="master"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro" revision="master"/>
