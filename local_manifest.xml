@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="96boards/oe-rpb-manifest"/>
+  <project name="roystonvasey/oe-rpb-manifest" path="conf" remote="github" revision="qcom/master">
+    <linkfile dest="setup-environment" src="setup-environment-internal"/>
+  </project>
   <project name="Connexionz/meta-connexionz" path="layers/meta-connexionz" remote="github" revision="cnx-dev"/>
 </manifest>
