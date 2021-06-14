@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Connexionz/meta-connexionz" path="layers/meta-connexionz" remote="github" revision="cnx-dev"/>
+</manifest>
